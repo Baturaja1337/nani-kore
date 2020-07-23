@@ -9,11 +9,10 @@
 	<input type="password" name="pass"><br>
 	<input type="submit" name="check" value="login">
 </form>
-</body>
-</html>
-<!-- REDUCE{g1git_DI_Gig1t_git} -->
 <?php
 if (isset($_POST['check']) && ($_POST['user'] == 'admin') && ($_POST['pass'] == 'admin')) {
 	die('Welcome admin');
 }
 ?>
+</body>
+</html>
