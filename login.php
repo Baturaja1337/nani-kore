@@ -11,6 +11,7 @@
 </form>
 </body>
 </html>
+<!-- REDUCE{g1git_DI_Gig1t_git} -->
 <?php
 if (isset($_POST['check']) && ($_POST['user'] == 'admin') && ($_POST['pass'] == 'admin')) {
 	die('Welcome admin');
