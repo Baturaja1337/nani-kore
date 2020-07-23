@@ -12,6 +12,8 @@
 <?php
 if (isset($_POST['check']) && ($_POST['user'] == 'admin') && ($_POST['pass'] == 'admin')) {
 	echo 'Welcome admin';
+} else {
+	echo 'Password salah';
 }
 ?>
 </body>
