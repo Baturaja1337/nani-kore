@@ -11,7 +11,7 @@
 </form>
 <?php
 if (isset($_POST['check']) && ($_POST['user'] == 'admin') && ($_POST['pass'] == 'admin')) {
-	die('Welcome admin');
+	echo 'Welcome admin';
 }
 ?>
 </body>
